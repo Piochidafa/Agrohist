@@ -3,9 +3,12 @@ import quato from "../assets/Images/quato.jpg"
 
 const Notfund = () => {
 
-    <div className=" w-screen ">
-        <Image src="../assets/Images/quato.jpg" />
+    return(
+
+        <div className=" flex w-full ">
+        <Image src={quato} className=" h-screen "/>
     </div>
+    )
 
 }
 export default Notfund
