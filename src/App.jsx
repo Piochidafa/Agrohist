@@ -5,6 +5,8 @@ import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import './App.css'
 import Notfund from './pages/notfund';
+import Home from './pages/Home';
+
 
 
 
@@ -15,8 +17,9 @@ function App() {
     <PrimeReactProvider>
     <BrowserRouter>
         <Routes>
-          <Route path='/' element={<h1>SEXO</h1>}/>
+          <Route path='/' element={<Home/>}/>
           <Route path='*' element={<Notfund/>}/>
+          
         </Routes>
     </BrowserRouter>
     </PrimeReactProvider>
