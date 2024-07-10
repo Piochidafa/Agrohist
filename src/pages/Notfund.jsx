@@ -6,7 +6,7 @@ const Notfund = () => {
     return(
 
         <div className=" flex w-full ">
-        <Image src={quato} className=" h-screen "/>
+            <img src={quato} className=" w-full ml-7 " />
     </div>
     )
 

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '/node_modules/primeflex/primeflex.css'
+import 'primereact/resources/themes/lara-light-indigo/theme.css'
 import quato from './assets/Images/quato.jpg'
 import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
